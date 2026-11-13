@@ -9,3 +9,4 @@ print(rev(1110))
 print("VVCE SUCCESS")
 o = 1
 e = 2
+u = 99
