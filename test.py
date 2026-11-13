@@ -1,3 +1,4 @@
+
 def rev(n):
   r=0
   r += r*10 +(n%10)
@@ -6,3 +7,5 @@ def rev(n):
 
 print(rev(1110))
 print("VVCE SUCCESS")
+o = 1
+e = 2
