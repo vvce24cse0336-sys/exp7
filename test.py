@@ -5,3 +5,4 @@ def rev(n):
 
 
 print(rev(1110))
+print("VVCE SUCCESS")
