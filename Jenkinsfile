@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -12,16 +13,16 @@ pipeline {
         stage('Build & Execute Script') {
             steps {
                 echo 'Running test.py...'
-                sh 'python test.py'
+                sh 'python3 test.py'
             }
         }
 
         stage('Code Stability Check') {
             steps {
                 echo 'Verifying pipeline execution...'
-                bat 'echo "Python script executed successfully!"'
+                sh 'echo "Python script executed successfully!"'
             }
-        
+        }
     }
 
     post {
