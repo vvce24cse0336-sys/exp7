@@ -1,1 +1,2 @@
 print("AKM")
+print("Trigger")
